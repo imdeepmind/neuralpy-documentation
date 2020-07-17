@@ -1,5 +1,5 @@
 ---
-title: "Layers"
+title: "Models"
 contents: [
     {
         name: 'MSELoss',
@@ -8,5 +8,5 @@ contents: [
 ]
 ---
 
-# Layers
-## Linear Layers
+# Models
+## Linear Models

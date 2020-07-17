@@ -1,5 +1,5 @@
 ---
-title: "Layers"
+title: "Loss Functions"
 contents: [
     {
         name: 'MSELoss',
@@ -8,5 +8,5 @@ contents: [
 ]
 ---
 
-# Layers
-## Linear Layers
+# Loss Functions
+## Linear Loss Functions

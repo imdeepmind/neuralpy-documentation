@@ -32,8 +32,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `pages`,
-        path: `${__dirname}/src/markdown/`,
+        name: `docs`,
+        path: `${__dirname}/src/markdown/docs`,
       },
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality

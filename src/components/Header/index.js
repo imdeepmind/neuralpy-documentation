@@ -26,13 +26,9 @@ const Header = () => {
         >
           Docs
         </Link>
-        <Link
-          activeClassName={navStyle.active}
-          className={navStyle.navItem}
-          to="/blogs"
-        >
+        <a className={navStyle.navItem} href="https://medium.com/@imdeepmind">
           Blogs
-        </Link>
+        </a>
         <Link
           activeClassName={navStyle.active}
           className={navStyle.navItem}
@@ -40,13 +36,12 @@ const Header = () => {
         >
           Support
         </Link>
-        <Link
-          activeClassName={navStyle.active}
+        <a
           className={navStyle.navItem}
-          to="https://github.com/imdeepmind/NeuralPy"
+          href="https://github.com/imdeepmind/NeuralPy"
         >
           Github
-        </Link>
+        </a>
       </div>
     </nav>
   )
