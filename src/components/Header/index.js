@@ -12,11 +12,41 @@ const Header = () => {
       </Link>
 
       <div className={navStyle.navItems}>
-        <Link className={navStyle.navItem} to="/home">Home</Link>
-        <Link className={navStyle.navItem} to="/docs">Docs</Link>
-        <Link className={navStyle.navItem} to="/blogs">Blogs</Link>
-        <Link className={navStyle.navItem} to="/support">Support</Link>
-        <Link className={navStyle.navItem} to="/github">Github</Link>
+        <Link
+          activeClassName={navStyle.active}
+          className={navStyle.navItem}
+          to="/"
+        >
+          Home
+        </Link>
+        <Link
+          activeClassName={navStyle.active}
+          className={navStyle.navItem}
+          to="/docs"
+        >
+          Docs
+        </Link>
+        <Link
+          activeClassName={navStyle.active}
+          className={navStyle.navItem}
+          to="/blogs"
+        >
+          Blogs
+        </Link>
+        <Link
+          activeClassName={navStyle.active}
+          className={navStyle.navItem}
+          to="/support"
+        >
+          Support
+        </Link>
+        <Link
+          activeClassName={navStyle.active}
+          className={navStyle.navItem}
+          to="https://github.com/imdeepmind/NeuralPy"
+        >
+          Github
+        </Link>
       </div>
     </nav>
   )
