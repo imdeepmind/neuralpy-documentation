@@ -2,6 +2,8 @@ import React from "react"
 import Layout from "../components/Layout"
 import { graphql } from "gatsby"
 
+import DocViewer from "../components/DocViewer"
+
 const Doc = ({ data }) => {
   const { markdownRemark } = data
 
@@ -10,7 +12,7 @@ const Doc = ({ data }) => {
       title={markdownRemark.frontmatter.title}
       description={markdownRemark.frontmatter.description}
     >
-      <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }}></div>
+      <DocViewer html={markdownRemark.html} />
     </Layout>
   )
 }
