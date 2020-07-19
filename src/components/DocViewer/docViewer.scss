@@ -6,4 +6,10 @@
         overflow-y: hidden;
         overflow-x: scroll;
     }
+
+    li code {
+        background: #e8e8e8;
+        color: #5a5a5a;
+        padding: 0px 5px;
+    }
 }
