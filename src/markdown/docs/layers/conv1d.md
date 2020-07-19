@@ -1,3 +1,7 @@
+---
+title: "Conv1D Layer | NeuralPy Deep Learning Library"
+description: "Applies a 1D convolution over an input signal composed of several input planes."
+---
 # Conv1D
 
 ```python

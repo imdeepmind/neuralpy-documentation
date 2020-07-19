@@ -1,3 +1,7 @@
+---
+title: "Bilinear Layer | NeuralPy Deep Learning Library"
+description: "Bilinear performs a bilinear transformation of the input."
+---
 # Bilinear
 
 ```python

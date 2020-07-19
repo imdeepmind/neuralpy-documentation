@@ -7,8 +7,8 @@ const Doc = ({ data }) => {
 
   return (
     <Layout
-      title={data.frontmatter.title}
-      description={data.frontmatter.description}
+      title={markdownRemark.frontmatter.title}
+      description={markdownRemark.frontmatter.description}
     >
       <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }}></div>
     </Layout>

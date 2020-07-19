@@ -1,4 +1,9 @@
-# Conv1D
+---
+title: "Conv3D Layer | NeuralPy Deep Learning Library"
+description: "Applies a 3D convolution over an input signal composed of several input planes."
+---
+
+# Conv3D
 
 ```python
 neuralpy.layers.Conv3D(filters, kernel_size, input_shape=None, stride=1, padding=0, dilation=1, groups=1, bias=True, name=None)

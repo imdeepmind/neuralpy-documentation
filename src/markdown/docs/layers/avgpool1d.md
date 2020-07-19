@@ -1,4 +1,8 @@
-# Conv1D
+---
+title: "AvgPool1D Layer | NeuralPy Deep Learning Library"
+description: "AvgPool1D Applies a 1D avg pooling over an input."
+---
+# AvgPool1D
 
 ```python
 neuralpy.layers.AvgPool1D(kernel_size, stride=None, padding=0, ceil_mode=False, count_include_pad=True, name=None)
