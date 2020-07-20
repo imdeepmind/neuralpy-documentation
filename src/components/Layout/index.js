@@ -1,11 +1,13 @@
 import React from "react"
+import { ThemeProvider } from "@material-ui/styles"
+
+import theme from "./theme"
 
 import SEO from "../SEO"
 import Header from "../Header/"
 
-import "../../styles/theme.scss";
+import "../../styles/theme.scss"
 import "../../styles/main.scss"
-
 
 const Layout = props => {
   const renderSEO = () => {
@@ -24,11 +26,11 @@ const Layout = props => {
   }
 
   return (
-    <div className="container">
+    <ThemeProvider theme={theme}>
       {renderSEO()}
       <Header />
-      {props.children}
-    </div>
+      <div className="container">{props.children}</div>
+    </ThemeProvider>
   )
 }
 
